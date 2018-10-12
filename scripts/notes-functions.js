@@ -111,9 +111,6 @@ const renderNotes = (notes, filters) => {
         emptyMessage.classList.add('empty-message')
         notesEl.appendChild(emptyMessage)
     }
-
-    
-    
 }
 
 // Generate time stamp message 
