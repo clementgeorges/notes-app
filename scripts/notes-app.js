@@ -23,7 +23,7 @@ document.querySelector('#create-note').addEventListener('click', (e) => {
 
 
     savedNotes(notes)
-    location.assign(`/edit.html#${id}`)
+    location.assign(`./edit.html#${id}`)
 })
 
 document.querySelector('#search-text').addEventListener('input', (e) => {
