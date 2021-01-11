@@ -36,7 +36,7 @@ bodyElement.addEventListener('input', (e) => {
 removeElement.addEventListener('click', (e) => {
     removeNotes(note.id)
     savedNotes(notes)
-    location.assign('/index.html')
+    location.assign('/notes-app/index.html')
 })
 
 window.addEventListener('storage', (e) => {
